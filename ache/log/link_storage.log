@@ -1,0 +1,28 @@
+CONFIGURATION FILE = config/sample_config/link_storage/link_storage.cfg
+LINK_CLASSIFIER:class focusedCrawler.link.classifier.LinkClassifierBaseline
+USE_SCOPE:false
+FRONTIER: class focusedCrawler.link.frontier.FrontierTargetRepositoryBaseline
+>> TOTAL LOADED: 374
+>> LOADING GRAPH...
+>> DONE GRAPH.
+Creating Server (1988) Fri Mar 06 00:47:37 EST 2015
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:106)
+	at focusedCrawler.util.storage.socket.ServerConnectionListener.<init>(ServerConnectionListener.java:121)
+	at focusedCrawler.util.storage.socket.StorageRemoteServer.<init>(StorageRemoteServer.java:43)
+	at focusedCrawler.util.storage.socket.StorageBinder.bind(StorageBinder.java:66)
+	at focusedCrawler.util.storage.distribution.StorageBinder.bind(StorageBinder.java:48)
+	at focusedCrawler.link.LinkStorage.main(LinkStorage.java:315)
+	at focusedCrawler.Main.startLinkStorage(Main.java:66)
+	at focusedCrawler.Main.main(Main.java:30)
+--
+focusedCrawler.util.storage.StorageBinderException
+	at focusedCrawler.util.storage.socket.StorageBinder.bind(StorageBinder.java:74)
+	at focusedCrawler.util.storage.distribution.StorageBinder.bind(StorageBinder.java:48)
+	at focusedCrawler.link.LinkStorage.main(LinkStorage.java:315)
+	at focusedCrawler.Main.startLinkStorage(Main.java:66)
+	at focusedCrawler.Main.main(Main.java:30)

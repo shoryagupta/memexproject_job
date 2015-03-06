@@ -1,0 +1,3517 @@
+CONFIGURATION FILE = config/sample_config/crawler/crawler.cfg
+CONFIGURATION FILE = config/sample_config/link_storage/link_storage.cfg
+CONFIGURATION FILE = config/sample_config/target_storage/target_storage.cfg
+Create Downloader Start,  Tipo do Downloader : focusedCrawler.util.download.ExtractorProxyDownloader
+Create Downloader Start,  Tipo do Downloader : focusedCrawler.util.download.ExtractorProxyDownloader
+Create Downloader Start,  Tipo do Downloader : focusedCrawler.util.download.ExtractorProxyDownloader
+Create Downloader Start,  Tipo do Downloader : focusedCrawler.util.download.ExtractorProxyDownloader
+Create Downloader Start,  Tipo do Downloader : focusedCrawler.util.download.ExtractorProxyDownloader
+RM>crawler_group>crawler_group_0_0>Time(1):Asking for a new url to work on.:selectUrl() linkStorage.
+[6/MAR/2015:0:47:35] [SocketAdapterFactory] [produce] [localhost:1988]
+RM>crawler_group>crawler_group_1_0>Time(2):Asking for a new url to work on.:selectUrl() linkStorage.
+RM>crawler_group>crawler_group_2_0>Time(5):Asking for a new url to work on.:selectUrl() linkStorage.
+RM>crawler_group>crawler_group_3_0>Time(6):Asking for a new url to work on.:selectUrl() linkStorage.
+RM>crawler_group>crawler_group_4_0>Time(7):Asking for a new url to work on.:selectUrl() linkStorage.
+violetowewloczki
+www
+heikesquilt
+needlework
+BetterPolls
+LOG>crawler_group_3_0>selectUrl() linkServer end(53):http://needlework.craftgossip.com/
+LOG>crawler_group_1_0>selectUrl() linkServer end(51):http://heikesquilt.blogspot.com/2013/07/stamp-on-it-blog-hop-last-day.html
+LOG>crawler_group_4_0>selectUrl() linkServer end(49):http://www.onecosmos.blogspot.com/2005_11_01_archive.html
+LOG>crawler_group_2_0>selectUrl() linkServer end(48):http://violetowewloczki.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620855727)
+LOG>crawler_group_1_0>update() linkStorage end(1425620855725)
+LOG>crawler_group_3_0>update() linkStorage end(1425620855724)
+LOG>crawler_group_0_0>selectUrl() linkServer end(58):http://BetterPolls.com/do/1426
+crawler_group_3_0>after request url
+crawler_group_1_0>after request url
+crawler_group_4_0>after request url
+LOG>crawler_group_2_0>update() linkStorage end(1425620855728)
+crawler_group_4_0>after check url
+crawler_group_1_0>after check url
+crawler_group_3_0>after check url
+LOG>crawler_group_0_0>update() linkStorage end(1425620855735)
+crawler_group_2_0>after request url
+crawler_group_0_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after check ucracrawler_group_0_0>after download dacrawler_group_2_0>after download data
+crawler_group_4_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>acrawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://cabinpressstudio.blogspot.com/search/label/spring to TargetStorage .
+[6/MAR/2015:0:47:36] [SocketAdapterFactory] [produce] [localhost:2045]
+Erro de comunicacao: Connection refused
+Dormindo 5 mls
+[6/MAR/2015:0:47:36] [SocketAdapterFactory] [produce] [localhost:2045]
+Erro de comunicacao: Connection refused
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+crawler_group_0_0:Connection refused
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:Connection refused
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:398)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(Ccrawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://needlework.craftgossip.com/ to TargetStorcrawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://irenefantino.blogspot.com/feeds/posts/default to TargetStorage .
+Erro de comunicacao: Connection refused
+Dormindo 5 mls
+[6/MAR/2015:0:47:36] [SocketAdapterFactory] [produce] [localhost:2045]
+Erro de comunicacao: Connection refused
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+crawler_group_4_0:Connection refused
+focusedCrawler.crawler.CrawlerException: crawler_group_4_0:Connection refused
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:398)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.onecosmos.blogspot.com/2005_11_01_archive.html to TargetStorage .
+Erro de comunicacao: Connection refused
+Dormindo 5 mls
+[6/MAR/2015:0:47:36] [SocketAdapterFactory] [produce] [localhost:2045]
+Erro de comunicacao: Connection refused
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+crawler_group_4_0:Connection refused
+focusedCrawler.crawler.CrawlerException: crawler_group_4_0:Connection refused
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:398)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+R>crawler_group_4_0>Sleeping 5000 mls.
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://violetowewloczki.blogspot.com/ to TargetStorage .
+Erro de comunicacao: Connection refused
+Dormindo 5 mls
+[6/MAR/2015:0:47:37] [SocketAdapterFactory] [produce] [localhost:2045]
+Erro de comunicacao: Connection refused
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+crawler_group_2_0:Connection refused
+focusedCrawler.crawler.CrawlerException: crawler_group_2_0:Connection refused
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:398)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+R>crawler_group_2_0>Sleeping 5000 mls.
+crawler_groucrawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.internazionale.it/home/ to TargetStorage .
+Erro de comunicacao: Connection refused
+Dormindo 5 mls
+[6/MAR/2015:0:47:38] [SocketAdapterFactory] [produce] [localhost:2045]
+Erro de comunicacao: Connection refused
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+crawler_group_3_0:Connection refused
+focusedCrawler.crawler.CrawlerException: crawler_group_3_0:Connection refused
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:398)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at java.net.Socket.<init>(Socket.java:375)
+	at java.net.Socket.<init>(Socket.java:189)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.getSocket(StorageRemoteAdapter.java:91)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:199)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+--
+focusedCrawler.util.distribution.CommunicationException: Connection refused
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.defaultMethod(StorageRemoteAdapter.java:259)
+	at focusedCrawler.util.storage.socket.StorageRemoteAdapter.insert(StorageRemoteAdapter.java:289)
+	at focusedCrawler.util.storage.distribution.StorageRemoteAdapterReconnect.insert(StorageRemoteAdapterReconnect.java:213)
+	at focusedCrawler.crawler.CrawlerImpl.sendData(CrawlerImpl.java:382)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:283)
+R>crawler_group_3_0>Sleeping R>crawler_R>crawler_group_0_0>Total time is 5567 mls [0,45,0,74,434,0,0,5001,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.quinnipiac.R>crawler_group_0_0>Total time is 5622 mls [0,58,0,389,152,0,0,5000,0]
+unpizzicodimagia
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://unpizzicodimagia.blogspot.com/
+LOG>cR>crawler_group_3_0>Total time is 5809 mls [0,69,0,558,157,0,0,5000,0]
+roysnaturelogbook
+LOG>crawler_group_3_0>selectUrl() linkR>crawler_group_4_0>Total time is 6044 mls [0,60,0,208,752,0,0,5000,0]
+gemhaaktdoormarijtje
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://gemhaaktdoormarijtje.blogspot.com/2015/02/geluksmomenten.html?showComment=1425024044984
+LOG>crawler_group_4_0>update() linkStorage end(1425620861715)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+R>crawler_group_1_0>Total time is 6081 mls [0,69,0,689,302,0,0,5000,0]
+goneauR>crawler_group_4_0>Total time is 6177 mls [0,66,0,452,636,0,0,5000,0]
+prettyfnmess
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://prettyfnmess.blogspot.com/feeds/posts/default
+LOG>crawler_group_4_0>update() linkStorage end(1425620861844)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0:Server returned HTTP response code: 401 for URL: http://prettyfnmess.blogspot.com/feeds/posts/default
+focusedCrawler.crawler.CrawlerException: crawler_group_4_0:Server returned HTTP response code: 401 for URL: http://prettyfnmess.blogspot.com/feeds/posts/default
+	at focusedCrawler.crawcrawler_group_4_0>after download data
+R>crawler_group_2_0>Total time is 6529 mls [0,74,0,987,359,0,0,5002,0]
+mentecorpoedu
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://mentecorpoedu.blogspot.it/search/label/giocoleria
+LOG>crawler_group_2_0>update() linkStorage end(1425620862199)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://gemhaaktdoormarijtje.blogspot.com/2015/02/geluksmomenten.html?showComment=1425024044984 to TargetStorage .
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://goneaussiequilting.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_2_0>after download data
+crawler_group_0_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+Rcrawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 2137 mls [5001,1,0,399,64,0,1661,10,0]
+kevindurose
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://kevindurose.blogspot.co.uk/2010/11/red-flanked-bluetail.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620863465)
+crawler_group_crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://unpizzicodimagia.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 3504 mls [5001,2,0,1549,687,0,1254,10,0]
+unter-dem-dach
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://unter-dem-dach.blogspot.com/2015/02/es-schneit-wieder.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620864796)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://unter-dem-dach.blogspot.com/2015/02/es-schneit-wieder.html to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 3371 mls [5000,3,0,715,707,0,1934,10,0]
+fraeulein-glueckspilz
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://fraeulein-glueckspilz.blogspot.de/search/label/Kreatives
+LOG>crawler_group_3_0>update() linkStorage end(1425620865201)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://a-nette.blogspot.com/ to TargetStorage .
+R>crawler_group_4_0>Total time is 5161 mls [5000,3,0,501,82,0,0,5000,0]
+mammyssweetscrapbooking
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://mammyssweetscrapbooking.blogspot.com/2010_11_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620866446)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://kevindurose.blogspot.co.uk/2010/11/red-flanked-bluetail.html to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 3466 mls [10,3,0,3301,34,0,116,10,0]
+theprairiewife
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://theprairiewife.blogspot.com/feeds/5412303493284604613/comments/default
+LOG>crawler_group_2_0>update() linkStorage end(1425620866931)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://theprairiewife.blogspot.com/feeds/5412303493284604613/comments/default to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://mammyssweetscrapbooking.blogspot.com/2010_11_01_archive.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 6193 mls [5000,2,0,3873,1,0,2306,10,0]
+dvdv-vdvd
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://dvdv-vdvd.blogspot.com/2014_03_01_archive.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620867950)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 4584 mls [5001,2,0,1467,42,0,3063,10,0]
+nailartbyrachele
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://nailartbyrachele.blogspot.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620868078)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 4477 mls [10,2,0,262,50,0,4150,11,0]
+mondaymellowyellows
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://mondaymellowyellows.blogspot.com/search/label/pier
+LOG>crawler_group_0_0>update() linkStorage end(1425620868144)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_3_0>after download data
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://dvdv-vdvd.blogspot.com/2014_03_01_archive.html to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://nailartbyrachele.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 2025 mls [5001,2,0,700,45,0,1266,10,0]
+mythreesonsknit
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://mythreesonsknit.blogspot.com.au/p/published.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620868471)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1570 mls [10,2,0,99,2,0,1455,10,0]
+dewereldvolgensnoemi
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://dewereldvolgensnoemi.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620868501)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 467 mls [10,2,0,233,76,0,145,10,0]
+gaypasswordlinks
+LOG>crawler_group_3_0>selectUrl() linkServer end(3):http://gaypasswordlinks.com/2014/10/17/112-new-gay-passwords-added-on-october-17/
+LOG>crawler_group_3_0>update() linkStorage end(1425620868548)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 625 mls [10,2,0,373,47,0,192,11,0]
+wedodoobadoo
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://wedodoobadoo.blogspot.com/2014/10/challenge-17halloween-we-do-doobadoo-uk.html?showComment=1413811364532
+LOG>crawler_group_1_0>update() linkStorage end(1425620868575)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://dewereldvolgensnoemi.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 210 mls [10,2,0,156,0,0,39,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.trustpilot.com/review/www.ultralightoutdoorgear.co.uk/
+LOG>crawler_group_2_0>update() linkStorage end(1425620868711)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://mythreesonsknit.blogspot.com.au/p/published.html to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.trustpilot.com/review/www.ultralightoutdoorgear.co.uk/ to TargetStorage .
+crawler_group_4_0>after send data
+crawler_group_2_0>after send data
+crawler_group_0_0>after download data
+R>crawler_group_4_0>Total time is 333 mls [11,1,0,223,56,0,42,10,0]
+R>crawler_group_2_0>Total time is 97 mls [10,2,0,79,1,0,4,11,0]
+dquilts
+LOG>crawler_group_4_0>selectUrl() linkServer end(12):http://dquilts.blogspot.com/2007/04/how-i-freezer-paper-piece.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620868815)
+montichiaricontrogreenhill
+crawler_group_4_0>after request url
+LOG>crawler_group_2_0>selectUrl() linkServer end(9):http://montichiaricontrogreenhill.blogspot.com/
+crawler_group_4_0>after check url
+LOG>crawler_group_2_0>update() linkStorage end(1425620868815)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://mondaymellowyellows.blogspot.com/search/label/pier to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 763 mls [11,2,0,656,50,0,44,10,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.tankerenemy.com/2008/06/le-prove.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620868908)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://wedodoobadoo.blogspot.com/2014/10/challenge-17halloween-we-do-doobadoo-uk.html?showComment=1413811364532 to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 482 mls [11,2,0,338,69,0,61,10,0]
+gracemalvin97
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://gracemalvin97.blogspot.com/2013/12/sherlock.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620869057)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://dquilts.blogspot.com/2007/04/how-i-freezer-paper-piece.html to TargetStorage .
+crawler_group_4_0>after send data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://montichiaricontrogreenhill.blogspot.com/ to TargetStorage .
+R>crawler_group_4_0>Total time is 392 mls [10,12,0,179,96,0,95,10,0]
+myfinestcountryhome
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://myfinestcountryhome.blogspot.com/2015/01/uitslag-give-away-eindelijk.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620869197)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_3_0>after download data
+crawler_group_1_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://gaypasswordlinks.com/2014/10/17/112-new-gay-passwords-added-on-october-17/ to TargetStorage .
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://gracemalvin97.blogspot.com/2013/12/sherlock.html to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 761 mls [11,9,0,244,130,0,368,10,0]
+de-egel
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://de-egel.blogspot.com/2015/02/februari-challenge-2.html?showComment=1422898714749
+LOG>crawler_group_2_0>update() linkStorage end(1425620869569)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 541 mls [10,2,0,417,43,crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1035 mls [10,3,0,696,100,0,224,10,0]
+prayerfulbeads
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://prayerfulbeads.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620869647)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://smokyland.blogspot.com/2015/03/opinioni-sul-fare-fumetti-10.html to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_2_0>after download data
+crawler_group_1_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://carandbikesonglines.blogspot.com.au/search/label/Miss%20Daisy to TargetStorage .
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://fliegenbeerland.blogspot.com/2013/08/morgens-halb-sieben.html to TargetStorage .
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://prayerfulbeads.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 1660 mls [10,2,0,618,290,0,739,10,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.newsstand.co.uk/242-Home-Interiors-Magazines/15534-Subscribe-to-HANDMADE-LIVING-Magazine-Subscription.aspx
+LOG>crawler_group_0_0>update() linkStorage end(1425620870496)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1008 mls [10,2,0,183,356,0,456,10,0]
+unavoltalichiedete
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://unavoltalichiedete.blogspot.com/2013/05/giangidoe-e-su-behance-e-ha-anche-un.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620870655)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1673 mls [10,2,0,905,235,0,520,10,0]
+ortsandends
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://ortsandends.blogspot.com/2013_01_01_archive.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620870688)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_0_0:http://www.newsstand.co.uk/242-Home-Interiors-Magazines/15534-Subscribe-to-HANDMADE-LIVING-Magazine-Subscription.aspx
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:http://www.newsstand.co.uk/242-Home-Interiors-Magazines/15534-Subscribe-to-HANDMADE-LIVING-Magazine-Subscription.aspx
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.FileNotFoundException: http://www.newsstand.co.uk/242-Home-Interiors-Magazines/15534-Subscribe-to-HANDMADE-LIVING-Magazine-Subscription.aspx
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_0_0>Sleeping 5000 mls.
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+crawler_group_4_0>after send data
+R>crawler_group_2_0 send page with http://unavoltalichiedete.blogspot.com/2013/05/giangidoe-e-su-behance-e-ha-anche-un.html to TargetStorage .
+R>crawler_group_4_0>Total time is 1534 mls [11,2,0,400,203,0,916,10,0]
+blocs
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://blocs.mesvilaweb.com/node/view/id/267692
+LOG>crawler_group_4_0>update() linkStorage end(1425620870955)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 435 mls [10,2,0,187,99,0,135,10,0]
+lifewithsugar
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://lifewithsugar.blogspot.com/2011_09_01_archive.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620871089)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_1_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://lifewithsugar.blogspot.com/2011_09_01_archive.html to TargetStorage .
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://ortsandends.blogspot.com/2013_01_01_archive.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1616 mls [10,2,0,754,204,0,646,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.freedomdogs.com/fd/component/content/featured.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620872304)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1460 mls [10,2,0,288,64,0,1095,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.amarantajam.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620872549)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+R>crawler_group_3_0>Total time is 5503 mls [10,2,0,851,69,0,1028,5000,0]
+carol-mylittlepieceofheaven
+LOG>crawler_group_3_0>selectUrl() linkServer end(10):http://carol-mylittlepieceofheaven.blogspot.co.uk/
+LOG>crawler_group_3_0>update() linkStorage end(1425620872674)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.amarantajam.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 286 mls [10,2,0,159,1,0,114,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(3):http://www.flower-soft.us.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620872838)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after download data
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://blocs.mesvilaweb.com/node/view/id/267692 to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://carol-mylittlepieceofheaven.blogspot.co.uk/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 2027 mls [10,2,0,1976,18,0,19,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.homesicktexan.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620872983)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 556 mls [5000,10,0,166,118,0,250,10,0]
+wendyknits
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://wendyknits.net/
+LOG>crawler_group_3_0>update() linkStorage end(1425620873222)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.homesicktexan.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 355 mls [11,2,0,196,100,0,45,10,0]
+f3hp-objectivamente
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://f3hp-objectivamente.blogspot.com/2010/12/este-foi-um-dos-projectos-no-qual.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620873338)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.freedomdogs.com/fd/component/content/featured.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1178 mls [10,2,0,1049,73,0,44,10,0]
+irreslicht
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://irreslicht.blogspot.com/2015/01/civil-war-love-letter-quilt.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620873482)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.flower-soft.us.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 761 mls [11,3,0,710,25,0,13,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.hardbritlads.com/static/dmca/trailer.php?id=9663
+LOG>crawler_group_2_0>update() linkStorage end(1425620873598)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://f3hp-objectivamente.blogspot.com/2010/12/este-foi-um-dos-projectos-no-qual.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 381 mls [11,2,0,267,65,0,36,11,0]
+livingbloggen
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://livingbloggen.blogspot.com/2014/02/nyhet-var-fantastiske-lenestol-kato.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620873719)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_3_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.hardbritlads.com/static/dmca/trailer.php?id=9663 to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://wendyknits.net/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 747 mls [10,2,0,668,41,0,24,10,0]
+trillinapensieri
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://trillinapensieri.blogspot.com/search/label/dolci
+LOG>crawler_group_3_0>update() linkStorage end(1425620873969)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after download data
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 604 mls [10,2,0,250,44,0,297,10,0]
+hannie-vanalleswat
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://hannie-vanalleswat.blogspot.com/search/label/breien
+LOG>crawler_group_2_0>update() linkStorage end(1425620874203)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://livingbloggen.blogspot.com/2014/02/nyhet-var-fantastiske-lenestol-kato.html to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 791 mls [11,1,0,443,143,0,189,10,0]
+possumkitty
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://possumkitty.blogspot.com/2014_04_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620874511)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://irreslicht.blogspot.com/2015/01/civil-war-love-letter-quilt.html to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1271 mls [11,1,0,966,212,0,80,10,0]
+lellamonella
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://lellamonella.blogspot.com/p/la-notte-e-silenziosa.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620874753)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://trillinapensieri.blogspot.com/search/label/dolci to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://hannie-vanalleswat.blogspot.com/search/label/breien to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 1172 mls [10,2,0,699,248,0,213,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://www.fingerfarda.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620875141)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1089 mls [10,3,0,810,27,0,236,10,0]
+jayzspaze
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://jayzspaze.blogspot.co.uk/search/label/Ayrshire%20%3A%20North%20Ayrshire
+LOG>crawler_group_2_0>update() linkStorage end(1425620875291)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://possumkitty.blogspot.com/2014_04_01_archive.html to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1103 mls [10,2,0,900,26,0,165,10,0]
+freedomslighthouse
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://freedomslighthouse.net/2012/11/
+LOG>crawler_group_4_0>update() linkStorage end(1425620875614)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://lellamonella.blogspot.com/p/la-notte-e-silenziosa.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 984 mls [10,1,0,718,197,0,57,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.business.nd.gov/sitemap/
+LOG>crawler_group_1_0>update() linkStorage end(1425620875738)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://freedomslighthouse.net/2012/11/ to TargetStorage .
+R>crawler_group_0_0>Total time is 5425 mls [11,2,0,618,290,0,739,5001,0]
+theminnesotagirls
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://theminnesotagirls.blogspot.com/2013_09_01_archive.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620875920)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 381 mls [10,2,0,228,70,0,70,10,0]
+netrightdaily
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://netrightdaily.com/about/contributors/nathan-mehrens/
+LOG>crawler_group_4_0>update() linkStorage end(1425620875994)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://jayzspaze.blogspot.co.uk/search/label/Ayrshire%20%3A%20North%20Ayrshire to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_0_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.fingerfarda.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1093 mls [10,2,0,733,232,0,115,10,0]
+wedgieswonderfulworld
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://wedgieswonderfulworld.blogspot.com/2015/02/all-or-nothing.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620876385)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://theminnesotagirls.blogspot.com/2013_09_01_archive.html to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 1308 mls [10,2,0,1152,55,0,88,10,0]
+occupywallst
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://occupywallst.org/forum/dow-sp-and-now-nasdaq-closing-in-on-records/
+LOG>crawler_group_3_0>update() linkStorage end(1425620876449)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_1_0>after download data
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 635 mls [5001,1,0,425,90,0,109,10,0]
+tuinderijganzert
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://tuinderijganzert.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620876556)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.business.nd.gov/sitemap/ to TargetStorage .
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://wedgieswonderfulworld.blogspot.com/2015/02/all-or-nothing.html to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://occupywallst.org/forum/dow-sp-and-now-nasdaq-closing-in-on-records/ to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_1_0>after send data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://tuinderijganzert.blogspot.com/ to TargetStorage .
+R>crawler_group_1_0>Total time is 1167 mls [10,2,0,741,230,0,184,10,0]
+piove-governoladro
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://piove-governoladro.blogspot.com/2014/03/riduzioni.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620876905)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 593 mls [10,2,0,298,27,0,255,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://www.themountainpress.com/sports/highschool
+LOG>crawler_group_3_0>update() linkStorage end(1425620877042)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after download data
+crawler_group_2_0>after send data
+crawler_group_0_0>after send data
+R>crawler_group_2_0>Total time is 701 mls [11,2,0,177,178,0,332,10,0]
+reflectionsofadogmom
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://reflectionsofadogmom.blogspot.com/search/label/angry
+LOG>crawler_group_2_0>update() linkStorage end(1425620877087)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+R>crawler_group_0_0>Total time is 535 mls [10,2,0,319,21,0,182,10,0]
+ateliereem
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://ateliereem.blogspot.com/search/label/postnl
+LOG>crawler_group_0_0>update() linkStorage end(1425620877094)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://netrightdaily.com/about/contributors/nathan-mehrens/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1181 mls [10,1,0,1076,48,0,45,10,0]
+todayisagoodday
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://todayisagoodday.be/
+LOG>crawler_group_4_0>update() linkStorage end(1425620877175)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.themountainpress.com/sports/highschool to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_2_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://piove-governoladro.blogspot.com/2014/03/riduzioni.html to TargetStorage .
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://reflectionsofadogmom.blogspot.com/search/label/angry to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 578 mls [11,1,0,237,25,0,303,10,0]
+wescott531
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://wescott531.blogspot.com/2013/03/butterflies.html
+LOG>crawler_group_3_0>update() linkStorage end(1425620877621)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 831 mls [11,2,0,333,44,0,436,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.lunabloom.be/NL/Blog/Online_magazine_beautiful_van_lunabloom-33
+LOG>crawler_group_2_0>update() linkStorage end(1425620877918)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1054 mls [10,2,0,506,48,0,487,10,0]
+crawler_group_3_0>after download data
+afishwholikesflowers
+LOG>crawler_group_1_0>selectUrl() linkServer end(9):http://afishwholikesflowers.blogspot.com/2013/07/bethanyism-27.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620877968)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://ateliereem.blogspot.com/search/label/postnl to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://wescott531.blogspot.com/2013/03/butterflies.html to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 953 mls [14,1,0,839,43,0,57,10,0]
+potosisheep
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://thechocolatecat.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 251 mls [10,3,0,175,27,0,35,10,0]
+jonaetlili
+LOG>crawler_group_0_0>selectUrl() linkServer end(3):http://jonaetlili.blogspot.com/2015/01/another-perfect-swap-pillow-and.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620878223)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://dekakado.blogspot.com/2013/09/hartendozen.html to TargetStorage .
+crawler_group_3_0>after send data
+crawler_group_2_0>after download data
+R>crawler_group_3_0>Total time is 1348 mls [11,1,0,1245,36,0,54,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://www.abdijbosreigershof.be/
+LOG>crawler_group_3_0>update() linkStorage end(1425620878300)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://lennie-flennerie.blogspot.nl/2014/12/de-eerste-lennie-flennerie-dag.html to TargetStorage .
+crawler_group_2_0>acrawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.hejtjorven.blogspot.nl/2011/10/arne-carlso-breien-door.html to TargetStorage .
+R>crawler_group_2_0>Total time is 5051 mls [10,2,0,646,156,0,179,5000,0]
+berlinerkueche
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://berlinerkueche.blogspot.com/search/label/Kuchen%20und%20S%C3%BC%C3%9Fes
+LOG>crawler_group_2_0>update() linkStorage end(1425620879404)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://berlinerkueche.blogspot.com/search/label/Kuchen%20und%20S%C3%BC%C3%9Fes to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 2388 mls [10,2,0,1522,95,0,757,10,0]
+barbaramama
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://barbaramama.blogspot.com/2012/01/home-sweet-home_23.html?showComment=1327356938893
+LOG>crawler_group_4_0>update() linkStorage end(1425620879920)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 666 mls [5001,2,0,134,36,0,483,10,0]
+petracreabea
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://petracreabea.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620880070)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://barbaramama.blogspot.com/2012/01/home-sweet-home_23.html?showComment=1327356938893 to TargetStorage .
+R>crawler_group_1_0>Total time is 5196 mls [11,2,0,394,39,0,126,5001,0]
+kronenreich
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://kronenreich.blogspot.com/2014/11/ich-geh-mit-meiner-laterne.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620880420)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 529 mls [11,1,0,251,2,0,265,10,0]
+ontroerendgoed-liesbeth
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://ontroerendgoed-liesbeth.blogspot.be/2011/12/kerstboom.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620880450)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://petracreabea.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 497 mls [10,2,0,367,38,0,80,10,0]
+upstairshobbyroom
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://upstairshobbyroom.blogspot.ca/
+LOG>crawler_group_2_0>update() linkStorage end(1425620880567)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://ontroerendgoed-liesbeth.blogspot.be/2011/12/kerstboom.html to TargetStorage .
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://upstairshobbyroom.blogspot.ca/ to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://kronenreich.blogspot.com/2014/11/ich-geh-mit-meiner-laterne.html to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 728 mls [10,2,0,393,48,0,272,10,0]
+pondside1741
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://pondside1741.blogspot.com/2015/01/coasting-no-more.html?showComment=1421665147829
+LOG>crawler_group_2_0>update() linkStorage end(1425620881295)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 881 mls [10,2,0,523,27,0,319,10,0]
+dominicgendron
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://dominicgendron.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620881331)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1087 mls [5001,2,0,660,73,0,342,10,0]
+farbwelten
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://farbwelten.blogspot.com/2014/10/mint.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620881507)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://farbwelten.blogspot.com/2014/10/mint.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 300 mls [10,2,0,206,25,0,57,10,0]
+rudepundit
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://rudepundit.blogspot.com/2015/03/random-thoughts-reading-through-dojs.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620881807)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://pondside1741.blogspot.com/2015/01/coasting-no-more.html?showComment=1421665147829 to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://rudepundit.blogspot.com/2015/03/random-thoughts-reading-through-dojs.html to TargetStorage .
+R>crawler_group_3_0>Total time is 5108 mls [11,1,0,109,206,0,212,5000,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.lorecalle.it/
+LOG>crawler_group_3_0>update() linkStorage end(1425620882142)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 918 mls [10,2,0,552,89,0,265,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.catart.be/nl/index.php
+LOG>crawler_group_2_0>update() linkStorage end(1425620882212)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://dominicgendron.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.catart.be/nl/index.php to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1344 mls [10,2,0,888,55,0,389,10,0]
+libelula30elrinconcitodesaray
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://libelula30elrinconcitodesaray.blogspot.com/2015/01/cuadro-y-ropa-de-bebe.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620882675)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 947 mls [10,2,0,157,51,0,727,10,0]
+kaartvanjosje
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://kaartvanjosje.blogspot.com/
+LOG>crawler_group_1_0>update() linkStorage end(1425620882754)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 592 mls [10,2,0,444,2,0,134,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.beetjebezig.nl/
+LOG>crawler_group_2_0>update() linkStorage end(1425620882805)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.beetjebezig.nl/ to TargetStorage .
+crawler_group_2_0>after send data
+crawler_group_4_0>after download data
+R>crawler_group_2_0>Total time is 484 mls [10,2,0,381,18,0,71,10,0]
+thetarnishedtatter
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://thetarnishedtatter.blogspot.com/2010/11/tatting-tea-tuesday-my-birthday-too-d.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620883289)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://libelula30elrinconcitodesaray.blogspot.com/2015/01/cuadro-y-ropa-de-bebe.html to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_4_0>after send data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://kaartvanjosje.blogspot.com/ to TargetStorage .
+R>crawler_group_4_0>Total time is 714 mls [10,2,0,604,41,0,57,10,0]
+patchworkonstonleigh
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://patchworkonstonleigh.blogspot.com/2014/01/new-year-new-quilts.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620883389)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 693 mls [11,1,0,591,39,0,51,11,0]
+anonym
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://anonym.to/?http://www.mansites.com/
+LOG>crawler_group_1_0>update() linkStorage end(1425620883447)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://patchworkonstonleigh.blogspot.com/2014/01/new-year-new-quilts.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 253 mls [10,2,0,169,32,0,39,11,0]
+invictoriantimes
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://invictoriantimes.blogspot.com/2013/12/antique-christmas.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620883641)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://anonym.to/?http://www.mansites.com/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 326 mls [11,1,0,278,1,0,36,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://www.displacementactivity.com/2015_02_01_archive.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620883774)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://invictoriantimes.blogspot.com/2013/12/antique-christmas.html to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_4_0>after send data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.displacementactivity.com/2015_02_01_archive.html to TargetStorage .
+R>crawler_group_4_0>Total time is 461 mls [11,1,0,383,26,0,39,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.christophercorr.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620884103)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>afteR>crawler_group_2_0>Total time is 5114 mls [10,2,0,180,38,0,98,5001,0]
+bombalablabla
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://bombalablabla.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620884545)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>afcrawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://thetarnishedtatter.blogspot.com/2010/11/tatting-tea-tuesday-my-birthday-too-d.html to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.athabascau.ca/students/requestassistance.php to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 577 mls [11,1,0,523,6,0,36,10,0]
+wwcrawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://createandshow.blogspot.com/2015/03/travel-challenge.html to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 494 mls [10,2,0,404,32,0,45,10,0]
+justjen-knitsandstitches
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://justjen-knitsandstitches.blogspot.com/feeds/posts/default
+LOG>crawler_group_3_0>update() linkStorage end(1425620885128)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://justjen-knitsandstitches.blogspot.com/feeds/posts/default to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 328 mls [10,2,0,173,14,0,128,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.margs-home-again.com/2015/02/what-month-is-this.html
+LOG>crawler_group_3_0>update() linkStorage end(1425620885456)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+RM>crawler_group>crawler_group_0_0>Time(9576):Downloading http://www.twccentral.com/entertainment/galleries/celebrity_pregnancies_births.:
+RM>crawler_group>crawler_group_1_0>Time(4242):Downloading http://www.arredamento-complementi.it/feed/.:
+RM>crawler_group>crawler_group_2_0>Time(1100):Downloading http://bombalablabla.blogspot.com/.:
+RM>crawler_group>crawler_group_3_0>Time(189):Downloading http://www.margs-home-again.com/2015/02/what-month-is-this.html.:
+RM>crawler_group>crawler_group_4_0>Time(2332):Downloading http://pos.org/inthenews/20090826.html.:
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.margs-home-again.com/2015/02/what-month-is-this.html to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://bombalablabla.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 909 mls [10,2,0,573,50,0,273,10,0]
+valeriodarimini
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://valeriodarimini.blogspot.com/2015/02/matera-capitale-della-cultura.html
+LOG>crawler_group_3_0>update() linkStorage end(1425620886366)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1961 mls [5001,2,0,1596,62,0,290,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.balloongenuity.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620886506)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.balloongenuity.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 474 mls [10,2,0,438,4,0,20,10,0]
+wenskaartenenzo
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://wenskaartenenzo.blogspot.com/feeds/posts/default?alt=rss
+LOG>crawler_group_2_0>update() linkStorage end(1425620886980)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://valeriodarimini.blogspot.com/2015/02/matera-capitale-della-cultura.html to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 753 mls [11,2,0,656,30,0,55,10,0]
+scharlottsbeacon
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://scharlottsbeacon.blogspot.com/2012/07/why-the-2-trigs-ruffles-theory-is.html?showComment=1341634301546
+LOG>crawler_group_3_0>update() linkStorage end(1425620887119)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://wenskaartenenzo.blogspot.com/feeds/posts/default?alt=rss to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 243 mls [10,2,0,185,16,0,30,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.tartx.com/blog/?page_id=233
+LOG>crawler_group_2_0>update() linkStorage end(1425620887223)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://www.twccentral.com/entertainment/galleries/celebrity_pregnancies_births to TargetStorage .
+crawler_group_0_0>after send data
+crawler_group_3_0>after download data
+R>crawler_group_0_0>Total time is 11446 mls [11,1,0,11355,29,0,51,10,0]
+iriscabin
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://iriscabin.blogspot.com/feeds/posts/default
+LOG>crawler_group_0_0>update() linkStorage end(1425620887515)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://scharlottsbeacon.blogspot.com/2012/07/why-the-2-trigs-ruffles-theory-is.html?showComment=1341634301546 to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://iriscabin.blogspot.com/feeds/posts/default to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.tartx.com/blog/?page_id=233 to TargetStorage .
+crawler_group_3_0>after send data
+crawler_group_2_0>after send data
+R>crawler_group_3_0>Total time is 751 mls [10,2,0,388,97,0,254,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://www.verrigni.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620887870)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+R>crawler_group_2_0>Total time is 652 mls [10,2,0,618,3,0,19,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.zazzle.pt/caneca_1_da_mama-168812877371711620
+LOG>crawler_group_2_0>update() linkStorage end(1425620887875)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 484 mls [10,2,0,171,22,0,278,10,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.pilegrim.info/en/
+LOG>crawler_group_0_0>update() linkStorage end(1425620887999)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://www.pilegrim.info/en/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 607 mls [10,2,0,590,1,0,4,10,0]
+siddis-in-houston
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://siddis-in-houston.blogspot.com/search?updated-min=2015-01-01T00:00:00-06:00&amp;updated-max=2016-01-01T00:00:00-06:00&amp;max-results=4
+LOG>crawler_group_0_0>update() linkStorage end(1425620888606)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://siddis-in-houston.blogspot.com/search?updated-min=2015-01-01T00:00:00-06:00&amp;updated-max=2016-01-01T00:00:00-06:00&amp;max-results=4 to TargetStorage .
+crawler_group_4_0:http://pos.org/inthenews/20090826.html
+focusedCrawler.crawler.CrawlerException: crawler_group_4_0:http://pos.org/inthenews/20090826.html
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.FileNotFoundException: http://pos.org/inthenews/20090826.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_4_0>Sleeping 5000 mls.
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 598 mls [10,2,0,458,51,0,77,10,0]
+supertatter
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://supertatter.blogspot.com/2014/04/alter-cloth.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620889204)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.verrigni.com/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 1565 mls [11,1,0,1531,11,0,10,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://www.callthecops.net/dispatch-advising-expect-wait-times-50-shades-grey-related-recuse-calls//
+LOG>crawler_group_3_0>update() linkStorage end(1425620889435)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.callthecops.net/dispatch-advising-expect-wait-times-50-shades-grey-related-recuse-calls// to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 330 mls [10,1,0,261,11,0,47,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.secondtimemommy.blogspot.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620889766)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://supertatter.blogspot.com/2014/04/alter-cloth.html to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.secondtimemommy.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 306 mls [10,2,0,183,41,0,69,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.topnews.asia/
+LOG>crawler_group_3_0>update() linkStorage end(1425620890072)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 885 mls [10,2,0,676,19,0,178,10,0]
+gunblast
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://gunblast.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620890089)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_3_0:Server returned HTTP response code: 406 for URL: http://www.topnews.asia/
+focusedCrawler.crawler.CrawlerException: crawler_group_3_0:Server returned HTTP response code: 406 for URL: http://www.topnews.asia/
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.IOException: Server returned HTTP response code: 406 for URL: http://www.topnews.asia/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_3_0>Sleeping 5000 mls.
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://gunblast.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 375 mls [10,2,0,274,9,0,80,10,0]
+beedeebabee
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://beedeebabee.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620890465)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://beedeebabee.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 616 mls [11,2,0,194,67,0,342,10,0]
+northumbrianbirding
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://northumbrianbirding.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620891081)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.zazzle.pt/caneca_1_da_mama-168812877371711620 to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 3785 mls [11,1,0,2971,272,0,531,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.inudisti.it/
+LOG>crawler_group_2_0>update() linkStorage end(1425620891661)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://northumbrianbirding.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 742 mls [10,3,0,535,84,0,110,10,0]
+blog
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://blog.inspirationemporium.com/?feed=comments-rss2
+LOG>crawler_group_0_0>update() linkStorage end(1425620891823)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://blog.inspirationemporium.com/?feed=comments-rss2 to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 866 mls [10,2,0,836,3,0,15,10,0]
+maaks-els
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://maaks-els.blogspot.com/2013_07_01_archive.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620892689)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.inudisti.it/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1278 mls [10,2,0,1208,23,0,33,10,0]
+everydayfoodstorage
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://everydayfoodstorage.net/2015/03/04/food-storage-life-hacks-homemade-sweetened-condensed-milk/food-storage-recipes
+LOG>crawler_group_2_0>update() linkStorage end(1425620892939)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://maaks-els.blogspot.com/2013_07_01_archive.html to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 859 mls [10,2,0,702,34,0,111,10,0]
+madebyanne
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://madebyanne.blogspot.com/2014/10/mantelstoff-zu-verkaufen.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620893548)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+R>crawler_group_4_0>Total time is 10845 mls [10,2,0,197,23,0,101,5000,0]
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://madebyanne.blogspot.com/2014/10/mantelstoff-zu-verkaufen.html to TargetStorage .
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.rinascita.eu/
+LOG>crawler_group_4_0>update() linkStorage end(1425620894159)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0>after send data
+crawler_group_2_0>after download data
+R>crawler_group_0_0>Total time is 766 mls [10,2,0,586,24,0,144,10,0]
+honknhollr
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://honknhollr.blogspot.com/search/label/Dating%20Challenge
+LOG>crawler_group_0_0>update() linkStorage end(1425620894314)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://everydayfoodstorage.net/2015/03/04/food-storage-life-hacks-homemade-sweetened-condensed-milk/food-storage-recipes to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1604 mls [10,2,0,1370,12,0,210,10,0]
+paleononpaleo
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://paleononpaleo.com/wp-content/plugins/flare/css/flare.css?ver=1.2.7
+LOG>crawler_group_2_0>update() linkStorage end(1425620894543)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://paleononpaleo.com/wp-content/plugins/flare/css/flare.css?ver=1.2.7 to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 167 mls [10,2,0,90,21,0,44,10,0]
+homeofaflossjunkie
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://homeofaflossjunkie.blogspot.com/2015/01/happy-new-year.html?showComment=1420152455618
+LOG>crawler_group_2_0>update() linkStorage end(1425620894710)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://honknhollr.blogspot.com/search/label/Dating%20Challenge to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 721 mls [10,2,0,497,43,0,169,10,0]
+bluebirdnotes
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://bluebirdnotes.blogspot.com/2015/02/oh-dear-me-few-days-late-i-am.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620895035)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://homeofaflossjunkie.blogspot.com/2015/01/happy-new-year.html?showComment=1420152455618 to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://bluebirdnotes.blogspot.com/2015/02/oh-dear-me-few-days-late-i-am.html to TargetStorage .
+R>crawler_group_3_0>Total time is 5253 mls [10,2,0,183,41,0,69,5000,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.ondarock.it/recensioni/2015_susannesundfor_tenlovesongs.htm
+LOG>crawler_group_3_0>update() linkStorage end(1425620895325)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 357 mls [11,1,0,153,13,0,179,10,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.pages.ab.ca/
+LOG>crawler_group_0_0>update() linkStorage end(1425620895393)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0:www.pages.ab.ca
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:www.pages.ab.ca
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)crawler_group_2_0>after send data
+
+java.net.UnknownHostException: www.pages.ab.ca
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:195)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:388)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:523)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:227)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:300)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:317)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1172)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_0_0>Sleeping 5000 mls.
+R>crawler_group_2_0>Total time is 721 mls [10,2,0,440,27,0,241,10,0]
+entremismanosylastuyas
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://entremismanosylastuyas.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620895431)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://entremismanosylastuyas.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_3_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.rinascita.eu/ to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.ondarock.it/recensioni/2015_susannesundfor_tenlovesongs.htm to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 858 mls [5000,2,0,687,48,0,111,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.sturgismotorcyclerally.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620896183)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 2071 mls [5000,2,0,1843,29,0,187,10,0]
+cindyadkinswhimsicalmusings
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://cindyadkinswhimsicalmusings.blogspot.nl/p/blogging-tutorials.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620896229)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 903 mls [10,2,0,469,33,0,389,10,0]
+burtoredie
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://burtoredie.blogspot.com/2011/07/in-lines-of-song.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620896334)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0:www.arredamento-complementi.it
+focusedCrawler.crawler.CrawlerException: crawler_group_1_0:www.arredamento-complementi.it
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.net.UnknownHostException: www.arredamento-complementi.it
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:195)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:388)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:523)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:227)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:300)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:317)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1172)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_1_0>Sleeping 5000 mls.
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://cindyadkinswhimsicalmusings.blogspot.nl/p/blogging-tutorials.html to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://burtoredie.blogspot.com/2011/07/in-lines-of-song.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 531 mls [10,1,0,320,64,0,135,10,0]
+federicopomponi
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://federicopomponi.blogspot.com/search?updated-min=2011-01-01T00:00:00-03:00&amp;updated-max=2012-01-01T00:00:00-03:00&amp;max-results=1
+LOG>crawler_group_4_0>update() linkStorage end(1425620896761)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.sturgismotorcyclerally.com/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 687 mls [10,2,0,604,9,0,62,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.sugarlandquilts.com/feeds/posts/default
+LOG>crawler_group_3_0>update() linkStorage end(1425620896870)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 588 mls [10,2,0,389,22,0,165,10,0]
+mincosmos2
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://mincosmos2.blogspot.com/search?updated-max=2015-01-16T05:07:00-08:00&amp;max-results=7
+LOG>crawler_group_2_0>update() linkStorage end(1425620896922)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://mincosmos2.blogspot.com/search?updated-max=2015-01-16T05:07:00-08:00&amp;max-results=7 to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://federicopomponi.blogspot.com/search?updated-min=2011-01-01T00:00:00-03:00&amp;updated-max=2012-01-01T00:00:00-03:00&amp;max-results=1 to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1033 mls [10,2,0,581,23,0,416,10,0]
+babylonglegs
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://babylonglegs.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620897794)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 893 mls [11,1,0,305,25,0,551,10,0]
+koolmade
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://koolmade.blogspot.com/search/label/Lennie%20Flennerie
+LOG>crawler_group_2_0>update() linkStorage end(1425620897816)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://babylonglegs.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 199 mls [11,1,0,140,15,0,33,10,0]
+rosarotskleinewelt
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://rosarotskleinewelt.blogspot.com/2015/01/su-stempelset-french-foliage-trauerkarte.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620897994)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://koolmade.blogspot.com/search/label/Lennie%20Flennerie to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 685 mls [10,2,0,566,42,0,65,10,0]
+coolshots-kaipiroska
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://coolshots-kaipiroska.blogspot.pt/2014/12/boas-festas.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620898500)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://rosarotskleinewelt.blogspot.com/2015/01/su-stempelset-french-foliage-trauerkarte.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 861 mls [10,2,0,752,42,0,54,11,0]
+quiltsjudith
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://quiltsjudith.blogspot.com/2015/02/hieperdepieper-nieuws.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620898854)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://coolshots-kaipiroska.blogspot.pt/2014/12/boas-festas.html to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 767 mls [10,2,0,674,34,0,47,10,0]
+tonaton
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://tonaton.com/newly-built-3-bedroom-house-for-rent-accra-7?utm_source=direct_deal&utm_medium=banner&utm_term=properties&utm_content=ghanaweb&utm_campaign=home_square
+LOG>crawler_group_2_0>update() linkStorage end(1425620899268)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_2_0:Server returned HTTP response code: 403 for URL: http://tonaton.com/newly-built-3-bedroom-house-for-rent-accra-7?utm_source=direct_deal&utm_medium=banner&utm_term=properties&utm_content=ghanaweb&utm_campaign=home_square
+focusedCrawler.crawler.CrawlerException: crawler_group_2_0:Server returned HTTP response code: 403 for URL: http://tonaton.com/newly-built-3-bedroom-house-for-rent-accra-7?utm_source=direct_deal&utm_medium=banner&utm_term=properties&utm_content=ghanaweb&utm_campaign=home_square
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://tonaton.com/newly-built-3-bedroom-house-for-rent-accra-7?utm_source=direct_deal&utm_medium=banner&utm_term=properties&utm_content=ghanaweb&utm_campaign=home_square
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_2_0>Sleeping 5000 mls.
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://quiltsjudith.blogspot.com/2015/02/hieperdepieper-nieuws.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 615 mls [11,1,0,509,40,0,54,10,0]
+knotaway
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://knotaway.blogspot.com/2010_09_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620899469)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://knotaway.blogspot.com/2010_09_01_archive.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 871 mls [10,1,0,806,21,0,33,10,0]
+ljuvalantliv
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://ljuvalantliv.blogspot.com/2014/12/fran-mig-till-er.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620900341)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+R>crawler_group_0_0>Total time is 5029 mls [10,2,0,153,13,0,179,5000,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://www.nakedkombat.com/site/shoots.jsp;jsessionid=0AE10C9EB1B1C444CB15C679B9246404?tag=Newcomer
+LOG>crawler_group_0_0>update() linkStorage end(1425620900421)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://ljuvalantliv.blogspot.com/2014/12/fran-mig-till-er.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 649 mls [11,1,0,554,33,0,50,11,0]
+simplymagnolia
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://simplymagnolia.blogspot.com/2015/03/cas-or-fully-loaded-midway-reminder.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620900990)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0>after download data
+R>crawler_group_1_0>Total time is 20017 mls [11,1,0,815,19,0,176,5000,0]
+rubys-verden
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://rubys-verden.blogspot.com/2014/11/grnn-hst.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620901420)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://www.nakedkombat.com/site/shoots.jsp;jsessionid=0AE10C9EB1B1C444CB15C679B9246404?tag=Newcomer to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 1115 mls [5000,1,0,973,47,0,80,10,0]
+maryandpatch
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://maryandpatch.blogspot.com/2015/03/pinterest-led-me-to.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620901536)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://simplymagnolia.blogspot.com/2015/03/cas-or-fully-loaded-midway-reminder.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 762 mls [11,1,0,684,29,0,38,10,0]
+peterdaou
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://peterdaou.com/2013/04/bostonmarathon/
+LOG>crawler_group_4_0>update() linkStorage end(1425620901752)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://maryandpatch.blogspot.com/2015/03/pinterest-led-me-to.html to TargetStorage .
+crawler_group_3_0:http://www.sugarlandquilts.com/feeds/posts/default
+focusedCrawler.crawler.CrawlerException: crawler_group_3_0:http://www.sugarlandquilts.com/feeds/posts/default
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.FileNotFoundException: http://www.sugarlandquilts.com/feeds/posts/default
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_3_0>Sleeping 5000 mls.
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 466 mls [10,1,0,378,15,0,60,10,0]
+mijnpatchwork
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://mijnpatchwork.blogspot.com/feeds/545343425843581534/comments/default
+LOG>crawler_group_0_0>update() linkStorage end(1425620902003)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://mijnpatchwork.blogspot.com/feeds/545343425843581534/comments/default to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 191 mls [10,2,0,173,1,0,4,10,0]
+wanderful
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://wanderful.com/wp-content/themes/wanderful/style.css?ver=1.9.2
+LOG>crawler_group_0_0>update() linkStorage end(1425620902193)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://wanderful.com/wp-content/themes/wanderful/style.css?ver=1.9.2 to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 234 mls [10,1,0,156,10,0,56,10,0]
+shootingmyuniverse
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://shootingmyuniverse.blogspot.com/2014/02/harlequins.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620902428)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://rubys-verden.blogspot.com/2014/11/grnn-hst.html to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://shootingmyuniverse.blogspot.com/2014/02/harlequins.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1870 mls [5001,1,0,1646,72,0,140,10,0]
+janeeborall
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://janeeborall.blogspot.sg/
+LOG>crawler_group_1_0>update() linkStorage end(1425620903291)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://peterdaou.com/2013/04/bostonmarathon/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 1005 mls [10,2,0,727,43,0,222,10,0]
+thenighteditor
+crawler_group_4_0>after send data
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://thenighteditor.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620903433)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+R>crawler_group_4_0>Total time is 1692 mls [10,2,0,1600,6,0,73,10,0]
+erikrubright
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://erikrubright.com/blog
+LOG>crawler_group_4_0>update() linkStorage end(1425620903445)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://thenighteditor.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 432 mls [10,2,0,291,49,0,78,11,0]
+dobbelshobby
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://dobbelshobby.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620903864)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://janeeborall.blogspot.sg/ to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://dobbelshobby.blogspot.com/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 892 mls [10,2,0,747,61,0,71,10,0]
+fortlapin
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://fortlapin.blogspot.com/favicon.ico
+LOG>crawler_group_1_0>update() linkStorage end(1425620904182)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 341 mls [11,1,0,254,20,0,56,10,0]
+millies-createyourart
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://millies-createyourart.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620904206)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://fortlapin.blogspot.com/favicon.ico to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 118 mls [10,2,0,101,1,0,3,11,0]
+tempeturleymusings
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://tempeturleymusings.blogspot.com/2011/07/religion-and-reason.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620904300)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://millies-createyourart.blogspot.com/ to TargetStorage .
+R>crawler_group_2_0>Total time is 5130 mls [10,2,0,674,34,0,47,5000,0]
+memebase
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://memebase.cheezburger.com/senorgif?ref=navbar
+LOG>crawler_group_2_0>update() linkStorage end(1425620904398)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 251 mls [10,2,0,164,25,0,50,10,0]
+arttray
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://arttray.blogspot.com/2009/09/black-white.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620904457)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://memebase.cheezburger.com/senorgif?ref=navbar to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 181 mls [5000,2,0,63,22,0,84,10,0]
+cdusabugal09
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://cdusabugal09.blogspot.com/2010/06/mocao-da-cdu-apresentada-na-sessao-de.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620904578)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://tempeturleymusings.blogspot.com/2011/07/religion-and-reason.html to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_1_0>after send data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://arttray.blogspot.com/2009/09/black-white.html to TargetStorage .
+R>crawler_group_1_0>Total time is 547 mls [11,1,0,456,27,0,53,10,0]
+scraplijn
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://scraplijn.blogspot.com/favicon.ico
+LOG>crawler_group_1_0>update() linkStorage end(1425620904848)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 495 mls [11,1,0,358,28,0,97,10,0]
+keywestcollies
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://keywestcollies.blogspot.com/2014_10_01_archive.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620904952)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://scraplijn.blogspot.com/favicon.ico to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 127 mls [10,2,0,111,0,0,4,10,0]
+romp-roll-rockies
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://romp-roll-rockies.blogspot.com/2015/03/black-and-white-sunday-shylas.html?showComment=1425257614533
+LOG>crawler_group_1_0>update() linkStorage end(1425620904975)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://cdusabugal09.blogspot.com/2010/06/mocao-da-cdu-apresentada-na-sessao-de.html to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 462 mls [10,1,0,423,10,0,18,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.faith-hope-and-confusion.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620905041)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://romp-roll-rockies.blogspot.com/2015/03/black-and-white-sunday-shylas.html?showComment=1425257614533 to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.faith-hope-and-confusion.com/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 510 mls [10,2,0,294,41,0,163,10,0]
+newlifeonahomestead
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://newlifeonahomestead.com/2013/03/mondays-homestead-barn-hop-104/
+LOG>crawler_group_1_0>update() linkStorage end(1425620905485)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 503 mls [10,2,0,358,35,0,98,10,0]
+antiqvaphotoblog
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://antiqvaphotoblog.blogspot.com/search/label/atardecer
+LOG>crawler_group_2_0>update() linkStorage end(1425620905544)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://newlifeonahomestead.com/2013/03/mondays-homestead-barn-hop-104/ tR>crawler_group_2_0>Total time is 5120 mls [10,2,0,118,0,0,3,5000,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.nakedkombat.com/site/shoot/37067-Top-Cock-Huge-muscles-raging-hard-cock-and-dont-forget-the-oil.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620906201)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+R>crawler_group_4_0>Total time is 5123 mls [10,2,0,488,36,0,84,5000,0]
+paratech
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://paratech.mighty-site.com/product/smt-basic-usar
+LOG>crawler_group_4_0>update() linkStorage end(1425620906704)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.nakedkombat.com/site/shoot/37067-Top-Cock-Huge-muscles-raging-hard-cock-and-dont-forget-the-oil.html to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 780 mls [5001,1,0,715,17,0,36,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.symphonytools.com/overview/networkedblogs?utm_source=networkedblogs&utm_medium=ad&utm_term=source&utm_content=woman_blog_as_picture&utm_campaign=ad3&ref=networkedblogs
+LOG>crawler_group_2_0>update() linkStorage end(1425620906981)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.edufloor.nl/dagfoto-2015/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 1877 mls [10,2,0,1780,24,0,58,10,0]
+easylivingbyproetske
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://easylivingbyproetske.blogspot.com/2015/02/sfeerplaatjes.html?showComment=1424600063801
+LOG>crawler_group_3_0>update() linkStorage end(1425620907057)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://paratech.mighty-site.com/product/smt-basic-usar to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 597 mls [5000,1,0,415,11,0,158,10,0]
+youngboyvideos
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://youngboyvideos.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620907302)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.symphonytools.com/overview/networkedblogs?utm_source=networkedblogs&utm_medium=ad&utm_term=source&utm_content=woman_blog_as_picture&utm_campaign=ad3&ref=networkedblogs to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 558 mls [10,1,0,492,6,0,48,10,0]
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://easylivingbyproetske.blogspot.com/2015/02/sfeerplaatjes.html?showComment=1424600063801 to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 728 mls [11,1,0,601,52,0,64,10,0]
+irenefantino
+smoothsailin
+LOG>crawler_group_3_0>selectUrl() linkServer end(943):http://irenefantino.blogspot.com/2012/12/davanti-me.html
+LOG>crawler_group_2_0>selectUrl() linkServer end(1191):http://smoothsailin.blogspot.com/2012_08_01_archive.html
+LOG>crawler_group_3_0>update() linkStorage end(1425620908731)
+LOG>crawler_group_2_0>update() linkStorage end(1425620908732)
+crawler_group_3_0>after request url
+crawler_group_2_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after check url
+R>crawler_group_1_0>Total time is 5084 mls [10,1,0,402,29,0,39,5000,0]
+homeofaflossjunkie
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://homeofaflossjunkie.blogspot.com/2015/01/happy-new-year.html?showComment=1420138700222
+LOG>crawler_group_1_0>update() linkStorage end(1425620908856)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://youngboyvideos.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1671 mls [10,2,0,1620,6,0,32,10,0]
+randomer9999
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://randomer9999.blogspot.com/2010_02_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620908973)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://homeofaflossjunkie.blogspot.com/2015/01/happy-new-year.html?showComment=1420138700222 to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 310 mls [5000,2,0,234,28,0,35,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.mammasilje.no/
+LOG>crawler_group_1_0>update() linkStorage end(1425620909167)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_3_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawlcrawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://keywestcollies.blogspot.com/2014_10_01_archive.html to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.vivereacomo.com/ to TargetStorage .
+crawler_group_0_0>after send data
+crawler_group_1_0>after send data
+R>crawler_group_0_0>Total time is 4578 mls [10,2,0,4435,41,0,88,11,0]
+xn--identit-fwa
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://xn--identit-fwa.com/blog/2015/02/14/lolocausto-di-dresda/
+LOG>crawler_group_0_0>update() linkStorage end(1425620909530)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+R>crawler_group_1_0>Total time is 2315 mls [10,2,0,2236,3,0,64,10,0]
+joseluisbarrigafotografia
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://joseluisbarrigafotografia.blogspot.com/search/label/setas
+LOG>crawler_group_1_0>update() linkStorage end(1425620909536)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://joseluisbarrigafotografia.blogspot.com/search/label/setas to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 564 mls [10,2,0,500,20,0,30,10,0]
+greeninthemiddle
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://greeninthemiddle.com/2015/03/02/textileartist-org-launches-its-first-book/
+LOG>crawler_group_1_0>update() linkStorage end(1425620910100)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0:http://xn--identit-fwa.com/blog/2015/02/14/lolocausto-di-dresda/
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:http://xn--identit-fwa.com/blog/2015/02/14/lolocausto-di-dresda/
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.FileNotFoundException: http://xn--identit-fwa.com/blog/2015/02/14/lolocausto-di-dresda/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_0_0>Sleeping 5000 mls.
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://greeninthemiddle.com/2015/03/02/textileartist-org-launches-its-first-book/ to TargetStorage .
+R>crawler_group_4_0>Total time is 7559 mls [10,2,0,1600,6,0,73,5000,0]
+blog
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://blog.formconspiracy.se/?m=201203
+LOG>crawler_group_4_0>update() linkStorage end(1425620911004)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1178 mls [10,2,0,409,326,0,431,10,0]
+bagsy-thecaptainslog
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://bagsy-thecaptainslog.blogspot.com/2009_09_04_archive.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620911278)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://blog.formconspiracy.se/?m=201203 to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 603 mls [5000,2,0,554,2,0,33,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.opgeruimdhuis365.blogspot.com/2014/12/creatieve-mensen-hebben-geen-rommel.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620911607)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.opgeruimdhuis365.blogspot.com/2014/12/creatieve-mensen-hebben-geen-rommel.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 717 mls [11,1,0,620,38,0,48,10,0]
+onlydollquilts
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://onlydollquilts.blogspot.com/2013/01/broken-dishes-doll-quilt.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620912325)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://bagsy-thecaptainslog.blogspot.com/2009_09_04_archive.html to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://onlydollquilts.blogspot.com/2013/01/broken-dishes-doll-quilt.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 155 mls [10,2,0,129,4,0,10,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.zol.com.cn/help/iphone.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620912479)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1609 mls [11,1,0,726,445,0,427,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.huffingtonpost.co.uk/news/twitter-jokes
+LOG>crawler_group_1_0>update() linkStorage end(1425620912888)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.zol.com.cn/help/iphone.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 909 mls [10,1,0,758,2,0,137,10,0]
+madebytanja
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://madebytanja.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620913388)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.huffingtonpost.co.uk/news/twitter-jokes to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 736 mls [10,2,0,615,34,0,75,10,0]
+scrapbooknewsandreview
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://scrapbooknewsandreview.com/index.php/easyblog/latest
+LOG>crawler_group_1_0>update() linkStorage end(1425620913624)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://madebytanja.blogspot.com/ to TargetStorage .
+R>crawler_group_2_0>Total time is 5948 mls [10,845,0,404,6,0,72,5000,0]
+cropmini
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://cropmini.com/?mode=srh&amp;sort=n&amp;cid=&amp;keyword=websters+pages
+LOG>crawler_group_2_0>update() linkStorage end(1425620913834)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 482 mls [10,1,0,379,35,0,57,10,0]
+ramonashomeplace
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://ramonashomeplace.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620913871)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://ramonashomeplace.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 863 mls [11,1,0,752,43,0,56,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.themountainpress.com/news/schools
+LOG>crawler_group_4_0>update() linkStorage end(1425620914735)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+R>crawler_group_0_0>Total time is 5738 mls [11,2,0,4435,41,0,88,5001,0]
+totstitch
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://totstitch.blogspot.com/2015/03/road-work.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620915267)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://cropmini.com/?mode=srh&amp;sort=n&amp;cid=&amp;keyword=websters+pages to TargetStorage .
+crawler_group_2_0>after send data
+crawler_group_4_0>after download data
+R>crawler_group_2_0>Total time is 1567 mls [5000,1,0,1542,7,0,7,10,0]
+crownoflifephotography
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://crownoflifephotography.blogspot.com/p/seniors.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620915402)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.themountainpress.com/news/schools to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 713 mls [10,2,0,660,16,0,25,10,0]
+goodstuffsworld
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://goodstuffsworld.blogspot.com/search/label/rule%205
+LOG>crawler_group_4_0>update() linkStorage end(1425620915448)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://crownoflifephotography.blogspot.com/p/seniors.html to TargetStorage .
+RM>crawler_group>crawler_group_0_0>Time(378):Downloading http://totstitch.blogspot.com/2015/03/road-work.html.:
+RM>crawler_group>crawler_group_1_0>Time(2021):Downloading http://scrapbooknewsandreview.com/index.php/easyblog/latest.:
+RM>crawler_group>crawler_group_2_0>Time(244):Sending data of 'http://crownoflifephotography.blogspot.com/p/seniors.html' to the page storage.
+RM>crawler_group>crawler_group_3_0>Time(6969):Downloading http://renewals.llronline.com/.:
+RM>crawler_group>crawler_group_4_0>Time(198):Downloading http://goodstuffsworld.blogspot.com/search/label/rule%205.:
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 258 mls [10,2,0,214,12,0,19,10,0]
+quiltmagie
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://quiltmagie.blogspot.de/search?updated-min=2015-01-01T00:00:00%2B01:00&amp;updated-max=2016-01-01T00:00:00%2B01:00&amp;max-results=9
+LOG>crawler_group_2_0>update() linkStorage end(1425620915660)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://totstitch.blogspot.com/2015/03/road-work.html to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 723 mls [5001,1,0,627,32,0,53,10,0]
+7kidschallengeblog
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://7kidschallengeblog.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620915991)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_2_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://7kidschallengeblog.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://quiltmagie.blogspot.de/search?updated-min=2015-01-01T00:00:00%2B01:00&amp;updated-max=2016-01-01T00:00:00%2B01:00&amp;max-results=9 to TargetStorage .
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://goodstuffsworld.blogspot.com/search/label/rule%205 to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 949 mls [10,2,0,828,34,0,75,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.wbaltv.com/connect/email
+LOG>crawler_group_4_0>update() linkStorage end(1425620916396)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 777 mls [10,2,0,604,35,0,126,10,0]
+filmup
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://filmup.leonardo.it/e-list/
+LOG>crawler_group_2_0>update() linkStorage end(1425620916437)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 511 mls [10,2,0,214,64,0,220,10,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.lindsayfincher.com/category/eastern-europe-the-caucasus/azerbaijan
+LOG>crawler_group_0_0>update() linkStorage end(1425620916502)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.wbaltv.com/connect/email to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 562 mls [10,1,0,508,15,0,26,11,0]
+najasknitting
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://najasknitting.blogspot.com/search/label/dekentjes
+LOG>crawler_group_4_0>update() linkStorage end(1425620916958)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://filmup.leonardo.it/e-list/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1285 mls [10,2,0,802,23,0,448,10,0]
+silentparrotpress
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://silentparrotpress.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620917722)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://najasknitting.blogspot.com/search/label/dekentjes to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://silentparrotpress.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 353 mls [10,2,0,156,22,0,162,11,0]
+badskirt
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://badskirt.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620918074)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1207 mls [11,1,0,871,22,0,301,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.neatoshop.com/artist-review
+LOG>crawler_group_4_0>update() linkStorage end(1425620918165)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://badskirt.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 297 mls [11,1,0,141,5,0,140,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.scdhec.gov/VitalRecords/
+LOG>crawler_group_2_0>update() linkStorage end(1425620918372)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.scdhec.gov/VitalRecords/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 266 mls [10,2,0,173,4,0,77,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.huffingtonpost.com/comedy/
+LOG>crawler_group_2_0>update() linkStorage end(1425620918637)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.huffingtonpost.com/comedy/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 268 mls [10,1,0,88,40,0,129,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://www.cbo.org.uk/
+LOG>crawler_group_2_0>update() linkStorage end(1425620918906)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://www.lindsayfincher.com/category/eastern-europe-the-caucasus/azerbaijan to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.cbo.org.uk/ to TargetStorage .
+crawler_group_0_0>after send data
+crawler_group_2_0>after send data
+R>crawler_group_0_0>Total time is 3667 mls [10,2,0,3498,37,0,120,10,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://www.rosarugosa.nl/
+LOG>crawler_group_0_0>update() linkStorage end(1425620920169)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+R>crawler_group_2_0>Total time is 1270 mls [10,2,0,1184,5,0,69,10,0]
+fonkelendester
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://fonkelendester.blogspot.com/2010/11/briefje-aan-gebbie-haar-opvangmama.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620920175)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0:http://fonkelendester.blogspot.com/2010/11/briefje-aan-gebbie-haar-opvangmama.html
+focusedCrawler.crawler.CrawlerException: crawler_group_2_0:http://fonkelendester.blogspot.com/2010/11/briefje-aan-gebbie-haar-opvangmama.html
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.FileNotFoundException: http://fonkelendester.blogspot.com/2010/11/briefje-aan-gebbie-haar-opvangmama.html
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_2_0>Sleeping 5000 mls.
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://www.rosarugosa.nl/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 810 mls [10,2,0,527,9,0,262,10,0]
+antoniopuigg
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://antoniopuigg.blogspot.com/search?updated-max=2015-02-05T20:31:00Z&amp;max-results=9
+LOG>crawler_group_0_0>update() linkStorage end(1425620920979)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://antoniopuigg.blogspot.com/search?updated-max=2015-02-05T20:31:00Z&amp;max-results=9 to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 1035 mls [10,2,0,804,47,0,171,10,0]
+persjuf
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://persjuf.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620922013)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://persjuf.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 251 mls [10,1,0,171,27,0,42,10,0]
+lifeinrobinsnest
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://lifeinrobinsnest.blogspot.com/2015/02/a-happy-kitchen.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620922265)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.neatoshop.com/artist-review to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 4573 mls [10,1,0,4389,13,0,159,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.valbuenaminiaturas.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620922739)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://lifeinrobinsnest.blogspot.com/2015/02/a-happy-kitchen.html to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 889 mls [10,2,0,604,37,0,235,10,0]
+saffroncraig
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://saffroncraig.com/RSSRetrieve.aspx?ID=609&Type=RSS20
+LOG>crawler_group_0_0>update() linkStorage end(1425620923153)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.valbuenaminiaturas.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 885 mls [10,2,0,853,13,0,7,10,0]
+centrisity
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://centrisity.blogspot.com/2006/05/enron-verdict-reached-guilty.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620923624)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://centrisity.blogspot.com/2006/05/enron-verdict-reached-guilty.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 376 mls [10,2,0,290,32,0,42,10,0]
+boobooblacksblog
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://boobooblacksblog.blogspot.com/2009/06/hey-how-about-some-privacy.html?showComment=1272917144197
+LOG>crawler_group_4_0>update() linkStorage end(1425620924000)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0:http://saffroncraig.com/RSSRetrieve.aspx?ID=609&Type=RSS20
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:http://saffroncraig.com/RSSRetrieve.aspx?ID=609&Type=RSS20
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.FileNotFoundException: http://saffroncraig.com/RSSRetrieve.aspx?ID=609&Type=RSS20
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1434)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_0_0>Sleeping 5000 mls.
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://boobooblacksblog.blogspot.com/2009/06/hey-how-about-some-privacy.html?showComment=1272917144197 to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 646 mls [11,1,0,511,24,0,100,10,0]
+nadelmaus
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://nadelmaus.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620924647)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.sanantonio.gov/HR/CareerCenter.aspx to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1749 mls [10,2,0,1037,111,0,587,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.visordown.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620916657)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.voanouvel.com/content/article/1513672.html to TargetStorage .
+crawler_group_1_0>after send data
+crawler_group_3_0>after send data
+R>crawler_group_1_0>Total time is 4850 mls [10,2,0,4509,41,0,288,10,0]
+R>crawler_group_3_0>Total time is 909 mls [10,2,0,872,14,0,11,10,0]
+bradandcourtneysnuggs
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://bradandcourtneysnuggs.blogspot.com/2011_01_01_archive.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620916764)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+beeinmybonnet
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://beeinmybonnet.blogspot.com/2006/05/bee-in-my-bonnet-defined.html
+LOG>crawler_group_3_0>update() linkStorage end(1425620916764)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://beeinmybonnet.blogspot.com/2006/05/bee-in-my-bonnet-defined.html to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 165 mls [10,2,0,141,4,0,8,10,0]
+hpsenspscraps
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://hpsenspscraps.blogspot.com/search/label/Vriendschapsarmbandjes
+LOG>crawler_group_3_0>update() linkStorage end(1425620916929)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+R>crawler_group_2_0>Total time is 5526 mls [11,1,0,371,17,0,260,5000,0]
+colorarelavita
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://colorarelavita.blogspot.com/favicon.ico
+LOG>crawler_group_2_0>update() linkStorage end(1425620917139)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after download data
+crawler_group_3_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://bradandcourtneysnuggs.blogspot.com/2011_01_01_archive.html to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://hpsenspscraps.blogspot.com/search/label/Vriendschapsarmbandjes to TargetStorage .
+crawler_group_1_0>after send data
+crawler_group_4_0>after download data
+R>crawler_group_1_0>Total time is 471 mls [10,2,0,386,33,0,40,10,0]
+mrsmoen
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://mrsmoen.blogspot.com/p/patterns_26.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620917234)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 353 mls [11,1,0,241,42,0,59,10,0]
+flatcreekfarm
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://flatcreekfarm.blogspot.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620917283)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_1_0>after download data
+crawler_group_2_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_1_0 send page with http://mrsmoen.blogspot.com/p/patterns_26.html to TargetStorage .
+R>crawler_group_2_0 send page with http://colorarelavita.blogspot.com/favicon.ico to TargetStorage .
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.visordown.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 978 mls [10,2,0,566,204,0,195,10,0]
+drivingsalespresidentsclub
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://drivingsalespresidentsclub.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620917635)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after send data
+crawler_group_2_0>after send data
+R>crawler_group_1_0>Total time is 419 mls [10,1,0,160,18,0,229,10,0]
+R>crawler_group_2_0>Total time is 516 mls [5000,1,0,273,0,0,230,10,0]
+polkadotjes
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://polkadotjes.blogspot.be/2011/01/tutorial-voor-een-kussensloop.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620917654)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+lelas-welt
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://lelas-welt.blogspot.com/2013_06_01_archive.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620917655)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after download data
+crawler_group_1_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://flatcreekfarm.blogspot.com/ to TargetStorage .
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://polkadotjes.blogspot.be/2011/01/tutorial-voor-een-kussensloop.html to TargetStorage .
+crawler_group_3_0>after send data
+crawler_group_2_0>after download data
+R>crawler_group_3_0>Total time is 1006 mls [11,1,0,831,71,0,92,10,0]
+mediaattentionltd
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://mediaattentionltd.blogspot.co.uk/search/label/Journalist
+LOG>crawler_group_3_0>update() linkStorage end(1425620918290)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://lelas-welt.blogspot.com/2013_06_01_archive.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 712 mls [10,2,0,486,81,0,133,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://www.schaetzeausmeinerkueche.de/2015/03/03/mozzarellasticks/
+LOG>crawler_group_1_0>update() linkStorage end(1425620918366)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 776 mls [10,1,0,627,50,0,88,10,0]
+creanora
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://creanora.blogspot.com/search/label/alcohol%20inkt
+LOG>crawler_group_2_0>update() linkStorage end(1425620918432)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://creanora.blogspot.com/search/label/alcohol%20inkt to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://drivingsalespresidentsclub.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 1136 mls [10,2,0,1019,8,0,96,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.teaguyspeaks.com/favicon.ico
+LOG>crawler_group_4_0>update() linkStorage end(1425620918771)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 359 mls [10,2,0,179,30,0,138,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.tomzap.com/puerto_a.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620918791)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.teaguyspeaks.com/favicon.ico to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 138 mls [10,2,0,121,0,0,4,10,0]
+shellysm
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://shellysm.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620918909)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.tomzap.com/puerto_a.html to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 205 mls [11,2,0,127,15,0,51,10,0]
+meinegruenewiese
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://meinegruenewiese.blogspot.com/search/label/Gebasteltes
+LOG>crawler_group_2_0>update() linkStorage end(1425620918997)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://shellysm.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 419 mls [10,2,0,289,46,0,72,10,0]
+prestegardsliv
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://prestegardsliv.blogspot.com/2012_01_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620919328)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.schaetzeausmeinerkueche.de/2015/03/03/mozzarellasticks/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1237 mls [10,2,0,1196,15,0,14,10,0]
+passiamoparola
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://passiamoparola.blogspot.com/
+LOG>crawler_group_1_0>update() linkStorage end(1425620919603)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+java.lang.StringIndexOutOfBoundsException: String index out of range: -3
+	at java.lang.String.substring(String.java:1937)
+	at focusedCrawler.util.parser.PaginaURL.separadorTextoCodigo(PaginaURL.java:945)
+	at focusedCrawler.util.parser.PaginaURL.<init>(PaginaURL.java:535)
+	at focusedCrawler.util.parser.PaginaURL.<init>(PaginaURL.java:494)
+	at focusedCrawler.crawler.CrawlerImpl.processData(CrawlerImpl.java:355)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:261)
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://prestegardsliv.blogspot.com/2012_01_01_archive.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 417 mls [10,2,0,341,14,0,50,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.playfulkitty.net/2015/03/05/march-petbox-review/
+LOG>crawler_group_4_0>update() linkStorage end(1425620919745)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://passiamoparola.blogspot.com/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 197 mls [10,1,0,165,9,0,11,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://www.10e.nl/
+LOG>crawler_group_1_0>update() linkStorage end(1425620919800)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://meinegruenewiese.blogspot.com/search/label/Gebasteltes to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 950 mls [10,2,0,759,78,0,101,10,0]
+lillakamomilla
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://lillakamomilla.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620919947)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.playfulkitty.net/2015/03/05/march-petbox-review/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 288 mls [10,2,0,213,25,0,38,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://www.designbyatfb.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620920033)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_3_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://lillakamomilla.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://mediaattentionltd.blogspot.co.uk/search/label/Journalist to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 388 mls [10,2,0,174,75,0,127,10,0]
+abc-challenge
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://abc-challenge.blogspot.co.uk/
+LOG>crawler_group_2_0>update() linkStorage end(1425620920334)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.10e.nl/ to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 2250 mls [10,2,0,1839,83,0,316,10,0]
+jutters
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://jutters.blogspot.com/feeds/posts/default
+LOG>crawler_group_3_0>update() linkStorage end(1425620920539)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://abc-challenge.blogspot.co.uk/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 788 mls [10,2,0,687,15,0,74,10,0]
+debbie-thedolphins
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://debbie-thedolphins.blogspot.com/2015/03/virgo-tilda.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620920588)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 329 mls [10,1,0,175,44,0,98,10,0]
+petrao
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://petrao.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620920663)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after download data
+crawler_group_4_0>after download data
+R>crawler_group_0_1>Total time is 5077 mls [0,1,0,0,0,0,0,5000,0]
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.designbyatfb.com/ to TargetStorage .
+ateliereem
+LOG>crawler_group_0_1>selectUrl() linkServer end(2):http://ateliereem.blogspot.com/favicon.ico
+LOG>crawler_group_0_1>update() linkStorage end(1425620920749)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://jutters.blogspot.com/feeds/posts/default to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 759 mls [10,2,0,710,5,0,32,10,0]
+prestegardsliv
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://prestegardsliv.blogspot.com/2012/01/papirhobby.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620920792)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://petrao.blogspot.com/ to TargetStorage .
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://ateliereem.blogspot.com/favicon.ico to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://debbie-thedolphins.blogspot.com/2015/03/virgo-tilda.html to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_1_0>after send data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://prestegardsliv.blogspot.com/2012/01/papirhobby.html to TargetStorage .
+R>crawler_group_1_0>Total time is 487 mls [10,3,0,275,52,0,146,10,0]
+fabricmutt
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://fabricmutt.blogspot.com/2015/03/why-i-sew.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620921074)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_3_0>after send data
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 392 mls [5000,2,0,70,0,0,320,0,0]
+www
+LOG>crawler_group_0_1>selectUrl() linkServer end(2):http://www.u-createcrafts.com/
+LOG>crawler_group_0_1>update() linkStorage end(1425620921141)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+R>crawler_group_3_0>Total time is 610 mls [10,1,0,177,58,0,364,10,0]
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 499 mls [10,1,0,136,10,0,342,10,0]
+evejank
+joseluisbarrigafotografia
+LOG>crawler_group_3_0>selectUrl() linkServer end(19):http://evejank.blogspot.com/2015/02/koszykibaranki-pan-mercedes-i-czarna.html
+LOG>crawler_group_2_0>selectUrl() linkServer end(5):http://joseluisbarrigafotografia.blogspot.com/search/label/lisboa
+LOG>crawler_group_3_0>update() linkStorage end(1425620921167)
+LOG>crawler_group_2_0>update() linkStorage end(1425620921167)
+crawler_group_3_0>after request url
+crawler_group_2_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after check url
+crawler_group_4_0>after send data
+crawler_group_1_0>after download data
+R>crawler_group_4_0>Total time is 447 mls [10,2,0,254,17,0,163,10,0]
+talesfromthetatbag
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://talesfromthetatbag.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620921239)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://joseluisbarrigafotografia.blogspot.com/search/label/lisboa to TargetStorage .
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://talesfromthetatbag.blogspot.com/ to TargetStorage .
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://fabricmutt.blogspot.com/2015/03/why-i-sew.html to TargetStorage .
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://www.u-createcrafts.com/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 606 mls [10,1,0,157,220,0,217,10,0]
+flohstiche
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://flohstiche.blogspot.com/2014/11/trip-around-world-in-blue.html?showComment=1421675069610
+LOG>crawler_group_1_0>update() linkStorage end(1425620921681)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 461 mls [10,2,0,178,21,0,249,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.ihanna.nu/
+LOG>crawler_group_4_0>update() linkStorage end(1425620921699)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 553 mls [11,5,0,251,18,0,268,10,0]
+hillarysworld-hillarysmygirl16
+LOG>crawler_group_2_0>selectUrl() linkServer end(2):http://hillarysworld-hillarysmygirl16.blogspot.com/search/label/Hillary%20Clinton
+LOG>crawler_group_2_0>update() linkStorage end(1425620921717)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 606 mls [0,2,0,467,9,0,128,0,0]
+kookoocraft
+LOG>crawler_group_0_1>selectUrl() linkServer end(1):http://kookoocraft.blogspot.com/p/about-me.html
+LOG>crawler_group_0_1>update() linkStorage end(1425620921747)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://kookoocraft.blogspot.com/p/about-me.html to TargetStorage .
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 198 mls [1,1,0,126,26,0,45,0,0]
+safintjagvill
+LOG>crawler_group_0_1>selectUrl() linkServer end(1):http://safintjagvill.blogspot.com/
+LOG>crawler_group_0_1>update() linkStorage end(1425620921946)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_3_0>after download data
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://evejank.blogspot.com/2015/02/koszykibaranki-pan-mercedes-i-czarna.html to TargetStorage .
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://safintjagvill.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_3_0>after send data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://hillarysworld-hillarysmygirl16.blogspot.com/search/label/Hillary%20Clinton to TargetStorage .
+R>crawler_group_3_0>Total time is 1343 mls [10,19,0,950,160,0,203,10,0]
+doggywisdom
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://doggywisdom.blogspot.com/feeds/posts/default
+LOG>crawler_group_3_0>update() linkStorage end(1425620922493)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after download data
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 616 mls [1,1,0,383,30,0,202,0,0]
+ljuvalantliv
+LOG>crawler_group_0_1>selectUrl() linkServer end(1):http://ljuvalantliv.blogspot.com/
+LOG>crawler_group_0_1>update() linkStorage end(1425620922563)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.ihanna.nu/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 971 mls [10,2,0,713,55,0,191,10,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.graphicsfairy.blogspot.com/
+LOG>crawler_group_2_0>update() linkStorage end(1425620922687)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_4_0>after send data
+crawler_group_3_0>after download data
+R>crawler_group_4_0>Total time is 1022 mls [10,2,0,853,16,0,140,10,0]
+tenasantiago
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://tenasantiago.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620922721)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://flohstiche.blogspot.com/2014/11/trip-around-world-in-blue.html?showComment=1421675069610 to TargetStorage .
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://www.graphicsfairy.blogspot.com/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 145 mls [10,1,0,130,1,0,3,10,0]
+stuffdutchpeoplelike
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://stuffdutchpeoplelike.com/2013/11/15/no-36-sinterklaas/
+LOG>crawler_group_2_0>update() linkStorage end(1425620922833)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://doggywisdom.blogspot.com/feeds/posts/default to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1220 mls [10,2,0,1056,64,0,87,10,0]
+list-nanda-nursing-diagnosis
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://list-nanda-nursing-diagnosis.blogspot.com/search/label/Vertigo
+LOG>crawler_group_1_0>update() linkStorage end(1425620922901)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://tenasantiago.blogspot.com/ to TargetStorage .
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://ljuvalantliv.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 617 mls [10,2,0,226,116,0,263,10,0]
+lantligkreativanda
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://lantligkreativanda.blogspot.com/
+LOG>crawler_group_3_0>update() linkStorage end(1425620923110)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_2_0>after download data
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://list-nanda-nursing-diagnosis.blogspot.com/search/label/Vertigo to TargetStorage .
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://stuffdutchpeoplelike.com/2013/11/15/no-36-sinterklaas/ to TargetStorage .
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 717 mls [1,1,0,467,49,0,200,0,0]
+www
+LOG>crawler_group_0_1>selectUrl() linkServer end(1):http://www.altroconsumo.it/hi-tech/cellulari
+LOG>crawler_group_0_1>update() linkStorage end(1425620923280)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 628 mls [10,1,0,241,21,0,355,10,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.lighthousecatholicmedia.org/store/refer/1380
+LOG>crawler_group_4_0>update() linkStorage end(1425620923350)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 618 mls [11,1,0,360,48,0,199,10,0]
+craftandcreativity
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://craftandcreativity.com/blog/comments/feed/
+LOG>crawler_group_2_0>update() linkStorage end(1425620923452)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 571 mls [10,2,0,301,17,0,241,10,0]
+lastrefugeofascoundrel
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://lastrefugeofascoundrel.blogspot.com/2015/03/its-about-time.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620923472)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.lighthousecatholicmedia.org/store/refer/1380 to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 561 mls [11,1,0,473,16,0,60,11,0]
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.zazzle.pt/cr/design/pt-zazzle_keychain?customize_it=true&amp;pd=146925029472622980&amp;style=round_keychain&amp;size=2.25&amp;design.areas=%5Bfront_horz%5D&amp;view=113191793730158827
+LOG>crawler_group_4_0>update() linkStorage end(1425620923911)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://www.altroconsumo.it/hi-tech/cellulari to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 729 mls [0,1,0,670,16,0,41,0,0]
+villa-landlebenentsteht
+LOG>crawler_group_0_1>selectUrl() linkServer end(1):http://villa-landlebenentsteht.blogspot.com/2013/10/die-neue-vl-christmas-collection-ist-da.html
+LOG>crawler_group_0_1>update() linkStorage end(1425620924009)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://lantligkreativanda.blogspot.com/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 1077 mls [10,2,0,892,65,0,107,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(2):http://www.directions.ch/index.php?option=content&amp;task=view&amp;id=240
+LOG>crawler_group_3_0>update() linkStorage end(1425620924187)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://villa-landlebenentsteht.blogspot.com/2013/10/die-neue-vl-christmas-collection-ist-da.html to TargetStorage .
+crawler_group_0_1>after send data
+R>crawler_group_0_1>Total time is 266 mls [0,1,0,235,12,0,18,0,0]
+sweet-and-simple
+LOG>crawler_group_0_1>selectUrl() linkServer end(1):http://sweet-and-simple.se/
+LOG>crawler_group_0_1>update() linkStorage end(1425620924275)
+crawler_group_0_1>after request url
+crawler_group_0_1>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://lastrefugeofascoundrel.blogspot.com/2015/03/its-about-time.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1063 mls [10,2,0,857,57,0,137,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.macrolibrarsi.it/libri/__grazie-ancora-dottor-hamer-libro.php?pn=3548
+LOG>crawler_group_1_0>update() linkStorage end(1425620924535)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://craftandcreativity.com/blog/comments/feed/ to TargetStorage .
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1169 mls [11,1,0,1095,4,0,59,10,0]
+stijlenzo
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://stijlenzo.blogspot.com/2013_05_01_archive.html
+LOG>crawler_group_2_0>update() linkStorage end(1425620924621)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_1>after download data
+crawler_group_0_1>after process data
+crawler_group_0_1>after check data
+R>crawler_group_0_1 send page with http://sweet-and-simple.se/ to TargetStorage .
+for URL: http://canvascorp.com/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_3_0>Sleeping 5000 mls.
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://huisenhaak.blogspot.com/2014/05/babydeken-op-herhaling.html?showComment=1409038034668 to TargetStorage .
+crawler_group_1_0>after download data
+crawler_group_0_0>after send data
+crawler_group_4_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.180gracrawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://janny-stoftotnadenken.blogspot.com/2015/03/mysterykaarten.html to TargetStorage .
+crawler_group_3_0>after download data
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://braviautori.it/ to TargetStorage .
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://olhares.sapo.pt/o-electrico-foto5770264.html to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 795 mls [10,2,0,621,36,0,124,10,0]
+gretasquilteblogg
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://gretasquilteblogg.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620922537)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 856 mls [10,2,0,786,14,0,43,10,0]
+www
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://www.booksplease.org/books-read/books-read-in-2008/
+LOG>crawler_group_3_0>update() linkStorage end(1425620922573)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 3235 mls [10,1,0,3049,5,0,170,10,0]
+louisianabelleforever
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://louisianabelleforever.blogspot.com/2015/03/birds-blooms-and-bees.html
+LOG>crawler_group_1_0>update() linkStorage end(1425620922697)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://gretasquilteblogg.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 271 mls [10,2,0,205,16,0,36,11,0]
+greetvanmaurik
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://greetvanmaurik.blogspot.com/2015/03/envelopkaart.html?showComment=1425536219565
+LOG>crawler_group_0_0>update() linkStorage end(1425620922807)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://louisianabelleforever.blogspot.com/2015/03/birds-blooms-and-bees.html to TargetStorage .
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://greetvanmaurik.blogspot.com/2015/03/envelopkaart.html?showComment=1425536219565 to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 533 mls [11,2,0,327,73,0,120,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://www.tausendschoenes.com/index.php?cPath=48
+LOG>crawler_group_1_0>update() linkStorage end(1425620923230)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after download data
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 691 mls [11,1,0,314,27,0,339,10,0]
+rightwingnews
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://rightwingnews.com/democrats/obamas-dhs-suddenly-warning-right-wing-extremist-groups-dangerous-muslims/
+LOG>crawler_group_0_0>update() linkStorage end(1425620923499)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://faithgracecrafts.blogspot.com/ to TargetStorage .
+crawler_group_0_0:Server returned HTTP response code: 403 for URL: http://rightwingnews.com/democrats/obamas-dhs-suddenly-warning-right-wing-extremist-groups-dangerous-muslims/
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:Server returned HTTP response code: 403 for URL: http://rightwingnews.com/democrats/obamas-dhs-suddenly-warning-right-wing-extremist-groups-dangerous-muslims/
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://rightwingnews.com/democrats/obamas-dhs-suddenly-warning-right-wing-extremist-groups-dangerous-muslims/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_0_0>Sleeping 5000 mls.
+crawler_group_3_0>after download data
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 2918 mls [10,2,0,2468,159,0,278,10,0]
+littlecatdiaries
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://littlecatdiaries.blogspot.com/2013_02_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620923885)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_3_0>after process data
+crawler_group_3_0>after check data
+R>crawler_group_3_0 send page with http://www.booksplease.org/books-read/books-read-in-2008/ to TargetStorage .
+crawler_group_3_0>after send data
+R>crawler_group_3_0>Total time is 1385 mls [10,1,0,1294,25,0,53,10,0]
+linaholm
+LOG>crawler_group_3_0>selectUrl() linkServer end(1):http://linaholm.com/?page_id=4
+LOG>crawler_group_3_0>update() linkStorage end(1425620923959)
+crawler_group_3_0>after request url
+crawler_group_3_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://littlecatdiaries.blogspot.com/2013_02_01_archive.html to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 722 mls [11,1,0,465,85,0,161,10,0]
+arnecarlos
+LOG>crawler_group_4_0>selectUrl() linkServer end(2):http://arnecarlos.blogspot.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620924608)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://arnecarlos.blogspot.com/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 162 mls [10,2,0,140,4,0,6,10,0]
+addicted-to-stamps-challenge
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://addicted-to-stamps-challenge.blogspot.com/2014_11_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620924770)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://addicted-to-stamps-challenge.blogspot.com/2014_11_01_archive.html to TargetStorage .
+crawler_group_4_0>after send data
+crawler_group_1_0>after download data
+R>crawler_group_4_0>Total time is 314 mls [11,1,0,170,29,0,102,10,0]
+fairytausendschoen
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://fairytausendschoen.blogspot.com/p/freebies.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620925084)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.tausendschoenes.com/index.php?cPath=48 to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 1887 mls [11,1,0,1843,19,0,14,10,0]
+sarabournonville
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://sarabournonville.blogspot.com/
+LOG>crawler_group_1_0>update() linkStorage end(1425620925118)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+wler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 392 mls [10,1,0,154,5,0,221,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.elbf.co.uk/
+LOG>crawler_group_1_0>update() linkStorage end(1425620923893)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://wendyswhimsys.blogspot.com/2014/09/dried-flowers-and-home-made-paper.html to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.kleinezebra.com/categorie/mama-zebra/mama-hebbedingen/trendy-zakje-met-wasknijpers-roze-geblokt to TargetStorage .
+crawler_group_0_0>after send data
+crawler_group_4_0>after send data
+R>crawler_group_0_0>Total time is 665 mls [10,1,0,594,26,0,33,10,0]
+R>crawler_group_4_0>Total time is 747 mls [11,1,0,709,15,0,12,10,0]
+ilmiracolodeifili
+LOG>crawler_group_0_0>selectUrl() linkServer end(2):http://ilmiracolodeifili.blogspot.com/
+LOG>crawler_group_0_0>update() linkStorage end(1425620924063)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+www
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://www.stampotique.com/stamp/gift-certificate.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620924063)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://ilmiracolodeifili.blogspot.com/ to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 300 mls [10,2,0,187,41,0,58,11,0]
+www
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://www.ksallink.com/?cmd=displaystory&amp;story_id=12854&amp;format=html
+LOG>crawler_group_0_0>update() linkStorage end(1425620924362)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://www.elbf.co.uk/ to TargetStorage .
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://www.stampotique.com/stamp/gift-certificate.html to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 718 mls [10,2,0,537,1,0,166,10,0]
+my-blueberry-jam
+LOG>crawler_group_1_0>selectUrl() linkServer end(1):http://my-blueberry-jam.blogspot.com/
+LOG>crawler_group_1_0>update() linkStorage end(1425620924610)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 589 mls [11,1,0,461,5,0,112,10,0]
+chokohamacemetery
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://chokohamacemetery.blogspot.it/2014_04_01_archive.html
+LOG>crawler_group_4_0>update() linkStorage end(1425620924653)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_1_0>after download data
+crawler_group_1_0>after process data
+crawler_group_1_0>after check data
+R>crawler_group_1_0 send page with http://my-blueberry-jam.blogspot.com/ to TargetStorage .
+crawler_group_1_0>after send data
+R>crawler_group_1_0>Total time is 288 mls [10,1,0,176,42,0,58,10,0]
+www
+LOG>crawler_group_1_0>selectUrl() linkServer end(2):http://www.riflessioni.it/semplici_curiosi/popolazione.htm
+LOG>crawler_group_1_0>update() linkStorage end(1425620924899)
+crawler_group_1_0>after request url
+crawler_group_1_0>after check url
+crawler_group_2_0>after download data
+crawler_group_4_0>after download data
+crawler_group_4_0>after process data
+crawler_group_4_0>after check data
+R>crawler_group_4_0 send page with http://chokohamacemetery.blogspot.it/2014_04_01_archive.html to TargetStorage .
+crawler_group_2_0>after process data
+crawler_group_2_0>after check data
+R>crawler_group_2_0 send page with http://sweetdaysundertheoaks.com/2015/01/24/weekly-photo-challenge-express-yourself/ to TargetStorage .
+crawler_group_4_0>after send data
+R>crawler_group_4_0>Total time is 366 mls [11,1,0,279,30,0,46,10,0]
+webdevelopment
+LOG>crawler_group_4_0>selectUrl() linkServer end(1):http://webdevelopment.com/
+LOG>crawler_group_4_0>update() linkStorage end(1425620925020)
+crawler_group_4_0>after request url
+crawler_group_4_0>after check url
+crawler_group_2_0>after send data
+R>crawler_group_2_0>Total time is 1346 mls [10,1,0,1222,33,0,78,11,0]
+www
+LOG>crawler_group_2_0>selectUrl() linkServer end(1):http://www.jackiewellfonder.com/leaving-obama-hillary/
+LOG>crawler_group_2_0>update() linkStorage end(1425620925056)
+crawler_group_2_0>after request url
+crawler_group_2_0>after check url
+crawler_group_0_0>after download data
+crawler_group_0_0>after process data
+crawler_group_0_0>after check data
+R>crawler_group_0_0 send page with http://www.ksallink.com/?cmd=displaystory&amp;story_id=12854&amp;format=html to TargetStorage .
+crawler_group_0_0>after send data
+R>crawler_group_0_0>Total time is 755 mls [11,1,0,731,3,0,10,10,0]
+onestoppoetry
+LOG>crawler_group_0_0>selectUrl() linkServer end(1):http://onestoppoetry.com/2011/04/sunday-photography-interview-india-hobson-poetry-challenge.html
+LOG>crawler_group_0_0>update() linkStorage end(1425620925117)
+crawler_group_0_0>after request url
+crawler_group_0_0>after check url
+crawler_group_0_0:onestoppoetry.com
+focusedCrawler.crawler.CrawlerException: crawler_group_0_0:onestoppoetry.com
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:327)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+java.net.UnknownHostException: onestoppoetry.com
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:195)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at java.net.Socket.connect(Socket.java:478)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:163)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:388)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:523)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:227)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:300)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:317)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:970)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:911)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:836)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1172)
+	at focusedCrawler.crawler.CrawlerImpl.downloadUrl(CrawlerImpl.java:257)
+	at focusedCrawler.crawler.Crawler.run(Crawler.java:250)
+R>crawler_group_0_0>Sleeping 5000 mls.
